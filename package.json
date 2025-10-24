@@ -2,7 +2,9 @@
   "name": "@ng-mf/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx serve veranda --devRemotes=shell"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~20.3.0",
