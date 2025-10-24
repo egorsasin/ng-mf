@@ -5,7 +5,7 @@ import { MY_TOKEN } from 'shell/Wrapper';
 
 @Component({
   imports: [],
-  selector: 'vsk-context',
+  selector: 'vsk-veranda',
   template: `
     <h1>VERANDA APP</h1>
 
