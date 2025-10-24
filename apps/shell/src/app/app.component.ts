@@ -1,9 +1,14 @@
 import { Component } from '@angular/core';
-import { RemoteEntry } from './remote-entry/entry';
 
+// ИМПОРТ SHELL ВРАППЕРА ИЗ БИБЛИОТЕКИ
+import { ShellLib } from '@ng-mf/shell-lib';
 @Component({
-  imports: [RemoteEntry],
+  imports: [ShellLib],
   selector: 'vsk-app',
-  template: '<vsk-shell>Shell App</vsk-shell>',
+  template: `
+    <lib-shell>
+      <h1>MAIN APP</h1>
+    </lib-shell>
+  `,
 })
 export class AppComponent {}

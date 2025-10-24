@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "shell/Routes": ["apps/shell/src/app/remote-entry/entry.routes.ts"],
-      "shell/Wrapper": ["apps/shell/src/app/remote-entry/entry.ts"]
+      "shell/Wrapper": ["apps/shell/src/app/remote-entry/entry.ts"],
+      "@ng-mf/shell-lib": ["libs/shell-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
