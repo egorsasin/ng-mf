@@ -9,9 +9,9 @@ import { SHELL_TOKEN } from 'shell/Wrapper';
   template: `
     <h1>VERANDA APP</h1>
 
-    <div style="color: red; padding: 1rem;">{{ shellToken }}</div>
+    <div style="color: red; padding: 1rem;">{{ shellData }}</div>
   `,
 })
 export class VerandaContext {
-  protected shellToken = inject(SHELL_TOKEN);
+  protected shellData = inject(SHELL_TOKEN);
 }
