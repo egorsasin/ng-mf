@@ -1,6 +1,6 @@
 import { Component, InjectionToken } from '@angular/core';
 
-export const MY_TOKEN = new InjectionToken<string>('My Token');
+export const SHELL_TOKEN = new InjectionToken<string>('Shell Data Token');
 @Component({
   imports: [],
   selector: 'vsk-shell',
@@ -8,7 +8,7 @@ export const MY_TOKEN = new InjectionToken<string>('My Token');
   styleUrl: './entry.scss',
   providers: [
     {
-      provide: MY_TOKEN,
+      provide: SHELL_TOKEN,
       useValue:
         'Привет из Shell MFE! В зависимостях можно провайдить данные для внедрения в MFE из SHELL (контент) например AUTH токены или стейт',
     },
